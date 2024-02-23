@@ -1,0 +1,150 @@
+! 2023-02-01 https://www.youtube.com
+www.youtube.com###description .ytd-watch-metadata #items:has(.ytd-video-description-music-section-renderer)
+www.youtube.com##.ytp-ce-element
+
+! disable youtubes "ambient mode"
+www.youtube.com###cinematics.ytd-watch-flexy:remove()
+
+! Tắt chú thích
+www.youtube.com##.annotation
+
+! Hide "1080p Premium" in the video quality menu
+!#if env_firefox
+youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
+!#endif
+!#if env_chromium
+youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
+!#endif
+
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+www.youtube.com###guide-links-primary
+www.youtube.com###guide-links-secondary
+www.youtube.com###copyright
+www.youtube.com##ytd-mini-guide-entry-renderer.ytd-mini-guide-renderer.style-scope:nth-of-type(2)
+www.youtube.com###badge
+
+! fix delay youtube khi vừa mở video cho firefox
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+
+! 2023-02-01 https://animehay.city
+animehay.city###middle-box-screen
+animehay.city##div:nth-of-type(7)
+animehay.city###top-banner
+
+! 2023-02-02 https://www.thaythuoccuaban.com
+www.thaythuoccuaban.com###chiase
+www.thaythuoccuaban.com###chat-widget-minimized
+www.thaythuoccuaban.com###chat-widget-container
+www.thaythuoccuaban.com###livechat-eye-catcher
+
+! 2023-02-02 https://hhpanda.biz
+hhpanda.biz##.content.text-collapse.col-pd
+hhpanda.biz###desc > .clearfix.myui-panel-box > .myui-panel_hd
+hhpanda.biz###tags
+hhpanda.biz##.a-af-player > center
+hhpanda.biz##div.clearfix.myui-panel-bg.myui-panel:nth-of-type(5)
+hhpanda.biz##.container.banner-sticky-footer-container
+hhpanda.biz##div.clearfix.myui-panel-bg.myui-panel:nth-of-type(6)
+hhpanda.biz##div.clearfix.myui-panel-bg.myui-panel:nth-of-type(3)
+hhpanda.biz###tab_1
+hhpanda.biz###tab_2
+hhpanda.biz###tab_3
+hhpanda.biz##.row > center
+hhpanda.biz###overlay
+hhpanda.biz###xs-addd0
+hhpanda.biz##.underplayer_btn
+hhpanda.biz##div:nth-of-type(5)
+hhpanda.biz###top_addd
+
+! 2023-02-04 https://dongchill.co
+dongchill.co###tags
+dongchill.co##.container.banner-sticky-footer-container
+dongchill.co##div.even.myui-top-movies:nth-of-type(9)
+dongchill.co##div.odd.myui-top-movies:nth-of-type(8)
+dongchill.co##div.even.myui-top-movies:nth-of-type(5)
+dongchill.co##center
+dongchill.co###top_addd
+dongchill.co##.underplayer_btn
+dongchill.co###xs-addd0
+dongchill.co###overlay
+
+! 2023-02-04 http://animevietsub.io
+animevietsub.io###mv-keywords
+animevietsub.io##.ad-center-header.Ads > div > center
+animevietsub.io##.pc-catfixx
+animevietsub.io###invideo_wrapper
+animevietsub.io##.ad-center-header.Adv
+animevietsub.io##.notif-300
+animevietsub.io##.ad-center-980.Adv
+
+! 2023-04-30 https://xoilacz.com
+xoilacz.com##.d-lg-block.d-none.footer-banner
+xoilacz.com##.sk_balloon_left.sk_balloon_down.sk_balloon
+xoilacz.com##.sk_balloon_right.sk_balloon_down.sk_balloon
+xoilacz.com##.mt-3.d-lg-flex.d-none.row
+xoilacz.com##.block-int.p-0.d-lg-block.d-none.mt-1.container
+xoilacz.com##.d-lg-flex.d-none.sub-menu
+xoilacz.com##div.d-lg-flex.d-none.row:nth-of-type(4)
+xoilacz.com##.marquee-container
+xoilacz.com##.match-detail__offer.d-lg-block.d-none.col-md-4
+
+! 2023-04-30 https://hhtqvietsub.top
+hhtqvietsub.top###catfish
+
+! 2023-05-29 https://www.bbc.com
+www.bbc.com###zephr-message
+
+! 2023-07-27 https://phimmoi.im
+phimmoi.im###ads-preload
+phimmoi.im##.watch-banner-2.ad-container
+phimmoi.im##body > .mp-adz
+zophim.net###_AM_POPUP_FRAME
+||phimmoi.im/themes/legend/img/body_bg.gif$image
+phimmoi.im###_AM_POPUP_FRAME
+
+! 2023-09-01 https://subnhanhvl.cc
+subnhanhvl.cc##.container.banner-sticky-footer-container
+
+! 2023-09-07 https://ok.ru
+ok.ru##.__hide_overflow__nx4nw.container__nx4nw
+ok.ru##.modal-layer__w9hfw
+
+! 2023-09-12 https://embed.onplay.live
+embed.onplay.live###interac-box
+
+! 2023-09-17 https://douploads.net
+douploads.net##center:nth-of-type(2)
+douploads.net##center:nth-of-type(1)
+
+! 2023-11-05 https://hhninja1.tv
+hhninja1.tv###underplayerbanner > center
+
+! 2023-12-25 https://truyenfull.vn
+truyenfull.vn##.shoppe_ads_fly
+truyenfull.vn##.text-center.group_story
+
+! 2024-01-07 https://tieba.baidu.com
+tieba.baidu.com##.tieba-custom-pass-login
+
+! 2024-01-26 https://3dhay.vip
+3dhay.vip###tags
+3dhay.vip##div.server-group.clearfix.server:nth-of-type(3)
+3dhay.vip##div.server-group.clearfix.server:nth-of-type(4)
+3dhay.vip##.aanetwork-type-pto.aanetwork-ads-box
+3dhay.vip##.aanetwork-type-flyicon.aanetwork-ads-box
+3dhay.vip###footer_fixed_ads
+
+! 2024-01-29 https://mifirm.net
+mifirm.net##.bnud.holder
+mifirm.net###block-mess
+
+! 2024-02-06 https://bachngocsach.vip
+bachngocsach.vip##.mt-6.bg-light.site-footer
+
+! 2024-02-22 https://doctruyenchufull.org
+doctruyenchufull.org##.text-center.header
+doctruyenchufull.org##.close-center
+
