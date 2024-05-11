@@ -49,7 +49,7 @@ dongchill.co##^.underplayer_btn
 dongchill.co##^#xs-addd0
 dongchill.co##^#overlay
 
-! 2023-02-04 http://animevietsub.io
+! 2024-04-28 https://animevietsub.fun
 animevietsub.fun##^#mv-keywords
 animevietsub.fun##^.ad-center-header.Ads > div > center
 animevietsub.fun##^.pc-catfixx
@@ -57,6 +57,15 @@ animevietsub.fun##^#invideo_wrapper
 animevietsub.fun##^.ad-center-header.Adv
 animevietsub.fun##^.notif-300
 animevietsub.fun##^.ad-center-980.Adv
+animevietsub.fun##^#new-home
+animevietsub.fun##^.tag-list-main > ul
+animevietsub.fun##^#showChonLoc
+
+animevietsub.fun##^main > .watch-notice
+animevietsub.fun##^.social-button
+animevietsub.fun##^div.Wdgt:nth-of-type(6)
+animevietsub.fun##^div.Wdgt:nth-of-type(7)
+animevietsub.fun##^#showTopPhim
 
 ! 2023-04-30 https://hhtqvietsub.top
 hhtqvietsub.top##^#catfish
@@ -95,6 +104,8 @@ tieba.baidu.com##^.tieba-custom-pass-login
 3dhay.vip##^.aanetwork-type-pto.aanetwork-ads-box
 3dhay.vip##^.aanetwork-type-flyicon.aanetwork-ads-box
 3dhay.vip##^#footer_fixed_ads
+3dhay.vip##div.block-item:nth-of-type(1)
+3dhay.vip##^div.block-item:nth-of-type(2)
 
 ! 2024-01-29 https://mifirm.net
 mifirm.net##.bnud.holder
@@ -120,3 +131,18 @@ www.happyscribe.com##.hs-empty-container
 hhtq.xyz###catfishads
 hhtq.xyz##.closecf
 
+! 2024-04-16 https://www.olehdtv.com
+www.olehdtv.com##.play_infobox > .guangao
+www.olehdtv.com##.C2Ls.C2L
+www.olehdtv.com##.C2Rs.C2R > .wbalist_thumb
+
+! 2024-04-27 https://hhtq.xyz
+hhtq.xyz##.lazyloaded.ls-is-cached.catfish-img
+
+! 2024-05-01 https://www.iyf.tv
+www.iyf.tv##.ng-star-inserted.video-page-right.h-100.w-100 > .ng-star-inserted.h-100.w-100.position-relative.inner > .h-100.w-100
+www.iyf.tv##.pggd.ps
+www.iyf.tv##.ng-star-inserted.block-mt.d-block.dabc
+
+! 2024-05-02 https://www.iyf.tv
+www.iyf.tv##.ng-star-inserted.publicbox
