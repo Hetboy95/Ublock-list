@@ -5,6 +5,8 @@ www.youtube.com###cinematics.ytd-watch-flexy:remove()
 www.youtube.com##.ytp-ce-element
 www.youtube.com##.ytp-endscreen-content
 
+! Fix facebook slow down
+@@||www.facebook.com^$doc,replace=/\{"brs_content_label":[^,]+,"category":"SPONSORED"[^\n]+"cursor":"[^"]+"\}/{}/
 
 ! 2023-02-01 https://animehay.city
 animehay.city##^#middle-box-screen
@@ -49,23 +51,23 @@ dongchill.co##^.underplayer_btn
 dongchill.co##^#xs-addd0
 dongchill.co##^#overlay
 
-! 2024-04-28 https://animevietsub.fun
-animevietsub.fun##^#mv-keywords
-animevietsub.fun##^.ad-center-header.Ads > div > center
-animevietsub.fun##^.pc-catfixx
-animevietsub.fun##^#invideo_wrapper
-animevietsub.fun##^.ad-center-header.Adv
-animevietsub.fun##^.notif-300
-animevietsub.fun##^.ad-center-980.Adv
-animevietsub.fun##^#new-home
-animevietsub.fun##^.tag-list-main > ul
-animevietsub.fun##^#showChonLoc
+! 2024-04-28 https://animevietsub.art
+animevietsub.art##^#mv-keywords
+animevietsub.art##^.ad-center-header.Ads > div > center
+animevietsub.art##^.pc-catfixx
+animevietsub.art##^#invideo_wrapper
+animevietsub.art##^.ad-center-header.Adv
+animevietsub.art##^.notif-300
+animevietsub.art##^.ad-center-980.Adv
+animevietsub.art##^#new-home
+animevietsub.art##^.tag-list-main > ul
+animevietsub.art##^#showChonLoc
 
-animevietsub.fun##^main > .watch-notice
-animevietsub.fun##^.social-button
-animevietsub.fun##^div.Wdgt:nth-of-type(6)
-animevietsub.fun##^div.Wdgt:nth-of-type(7)
-animevietsub.fun##^#showTopPhim
+animevietsub.art##^main > .watch-notice
+animevietsub.art##^.social-button
+animevietsub.art##^div.Wdgt:nth-of-type(6)
+animevietsub.art##^div.Wdgt:nth-of-type(7)
+animevietsub.art##^#showTopPhim
 
 ! 2023-04-30 https://hhtqvietsub.top
 hhtqvietsub.top##^#catfish
@@ -106,6 +108,10 @@ tieba.baidu.com##^.tieba-custom-pass-login
 3dhay.vip##^#footer_fixed_ads
 3dhay.vip##div.block-item:nth-of-type(1)
 3dhay.vip##^div.block-item:nth-of-type(2)
+3dhay.vip##.overlay_block
+3dhay.vip##.overlay_content
+3dhay.vip###overlay
+
 
 ! 2024-01-29 https://mifirm.net
 mifirm.net##.bnud.holder
