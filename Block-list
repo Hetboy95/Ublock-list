@@ -51,23 +51,23 @@ dongchill.co##^.underplayer_btn
 dongchill.co##^#xs-addd0
 dongchill.co##^#overlay
 
-! 2024-04-28 https://animevietsub.life
-animevietsub.life##^#mv-keywords
-animevietsub.life##^.ad-center-header.Ads > div > center
-animevietsub.life##^.pc-catfixx
-animevietsub.life##^#invideo_wrapper
-animevietsub.life##^.ad-center-header.Adv
-animevietsub.life##^.notif-300
-animevietsub.life##^.ad-center-980.Adv
-animevietsub.life##^#new-home
-animevietsub.life##^.tag-list-main > ul
-animevietsub.life##^#showChonLoc
+! 2024-04-28 https://animevietsub.dev
+animevietsub.dev##^#mv-keywords
+animevietsub.dev##^.ad-center-header.Ads > div > center
+animevietsub.dev##^.pc-catfixx
+animevietsub.dev##^#invideo_wrapper
+animevietsub.dev##^.ad-center-header.Adv
+animevietsub.dev##^.notif-300
+animevietsub.dev##^.ad-center-980.Adv
+animevietsub.dev##^#new-home
+animevietsub.dev##^.tag-list-main > ul
+animevietsub.dev##^#showChonLoc
 
-animevietsub.life##^main > .watch-notice
-animevietsub.life##^.social-button
-animevietsub.life##^div.Wdgt:nth-of-type(6)
-animevietsub.life##^div.Wdgt:nth-of-type(7)
-animevietsub.life##^#showTopPhim
+animevietsub.dev##^main > .watch-notice
+animevietsub.dev##^.social-button
+animevietsub.dev##^div.Wdgt:nth-of-type(6)
+animevietsub.dev##^div.Wdgt:nth-of-type(7)
+animevietsub.dev##^#showTopPhim
 
 ! 2023-04-30 https://hhtqvietsub.top
 hhtqvietsub.top##^#catfish
@@ -152,3 +152,4 @@ www.iyf.tv##.ng-star-inserted.block-mt.d-block.dabc
 
 ! 2024-05-02 https://www.iyf.tv
 www.iyf.tv##.ng-star-inserted.publicbox
+
