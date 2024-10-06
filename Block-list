@@ -1,96 +1,29 @@
-! disable youtubes "ambient mode"
-www.youtube.com###cinematics.ytd-watch-flexy:remove()
-! Hide the video grid shown after a video ends
-!Hide video suggestions that obscure the end of the video
-www.youtube.com##.ytp-ce-element
-www.youtube.com##.ytp-endscreen-content
-
-! 2023-02-01 https://animehay.city
-animehay.city##^#middle-box-screen
-animehay.city##^div:nth-of-type(7)
-animehay.city##^#top-banner
-
-! 2023-02-02 https://www.thaythuoccuaban.com
-www.thaythuoccuaban.com##^#chiase
-www.thaythuoccuaban.com##^#chat-widget-minimized
-www.thaythuoccuaban.com##^#chat-widget-container
-www.thaythuoccuaban.com##^#livechat-eye-catcher
-
-! 2023-02-02 https://hhpanda.tube
-hhpanda.tube##center
-hhpanda.tube##.container.banner-sticky-footer-container
-hhpanda.tube##^.content.text-collapse.col-pd
-hhpanda.tube##^#desc > .clearfix.myui-panel-box > .myui-panel_hd
-hhpanda.tube##^#tags
-hhpanda.tube##^.a-af-player > center
-hhpanda.tube##^div.clearfix.myui-panel-bg.myui-panel:nth-of-type(5)
-hhpanda.tube##^div.clearfix.myui-panel-bg.myui-panel:nth-of-type(6)
-hhpanda.tube##^div.clearfix.myui-panel-bg.myui-panel:nth-of-type(3)
-hhpanda.tube##^#tab_1
-hhpanda.tube##^#tab_2
-hhpanda.tube##^#tab_3
-hhpanda.tube##^.row > center
-hhpanda.tube##^#overlay
-hhpanda.tube##^#xs-addd0
-hhpanda.tube##^.underplayer_btn
-hhpanda.tube##^div:nth-of-type(5)
-hhpanda.tube##^#top_addd
-
-! 2023-02-04 https://dongchill.co
-dongchill.co##^#tags
-dongchill.co##^.container.banner-sticky-footer-container
-dongchill.co##^div.even.myui-top-movies:nth-of-type(9)
-dongchill.co##^div.odd.myui-top-movies:nth-of-type(8)
-dongchill.co##^div.even.myui-top-movies:nth-of-type(5)
-dongchill.co##^center
-dongchill.co##^#top_addd
-dongchill.co##^.underplayer_btn
-dongchill.co##^#xs-addd0
-dongchill.co##^#overlay
-
-! 2024-04-28 https://animevietsub.app
-animevietsub.app##^#mv-keywords
-animevietsub.app##^.ad-center-header.Ads > div > center
-animevietsub.app##^.pc-catfixx
-animevietsub.app##^#invideo_wrapper
-animevietsub.app##^.ad-center-header.Adv
-animevietsub.app##^.notif-300
-animevietsub.app##^.ad-center-980.Adv
-animevietsub.app##^#new-home
-animevietsub.app##^.tag-list-main > ul
-animevietsub.app##^#showChonLoc
-animevietsub.app##[href="https://bit.ly/45D2wCF"]
-animevietsub.app##[href="https://bit.ly/3XF0Vua"]
-
-animevietsub.app##^main > .watch-notice
-animevietsub.app##^.social-button
-animevietsub.app##^div.Wdgt:nth-of-type(6)
-animevietsub.app##^div.Wdgt:nth-of-type(7)
-animevietsub.app##^#showTopPhim
-
-! 2023-04-30 https://hhtqvietsub.top
-hhtqvietsub.top##^#catfish
-
-! 2023-05-29 https://www.bbc.com
-www.bbc.com##^#zephr-message
-
-! 2024-01-26 https://3dhay.vip
-3dhay.vip##^#tags
-3dhay.vip##div.server-group.clearfix.server:nth-of-type(3)
-3dhay.vip##^div.server-group.clearfix.server:nth-of-type(4)
-3dhay.vip##^.aanetwork-type-pto.aanetwork-ads-box
-3dhay.vip##^.aanetwork-type-flyicon.aanetwork-ads-box
-3dhay.vip##^#footer_fixed_ads
-3dhay.vip##div.block-item:nth-of-type(1)
-3dhay.vip##^div.block-item:nth-of-type(2)
-3dhay.vip##.overlay_block
-3dhay.vip##.overlay_content
-3dhay.vip###overlay
-
-! 2024-04-02 https://www.happyscribe.com
-www.happyscribe.com##.hs-empty-container
-
-! 10 thg 7, 2024 https://hhtq.xyz
+! 29 thg 8, 2024 https://hhtq.xyz
 hhtq.xyz###catfish
-hhtq.xyz##.lazyloaded.ls-is-cached.catfish-img
 
+! 29 thg 8, 2024 https://3dhay.vip
+3dhay.vip###footer_fixed_ads
+
+! 29 thg 8, 2024 https://hhtq.xyz
+hhtq.xyz###underplayerbanner
+
+voz.vn##html[data-content-key="thread-682181"] .bbCodeSpoiler-content:style(display:unset!important;opacity:unset!important;transition:unset!important;overflow-y:unset!important;height:unset!important)
+
+! 7 thg 9, 2024 https://animevietsub.tube
+animevietsub.tube##.ad-center-header.Adv
+animevietsub.tube##.pc-catfixx
+animevietsub.tube##.widget-area
+animevietsub.tube##.bellow_ads_player.Ads
+
+! 18 thg 9, 2024 https://www.iyf.tv
+www.iyf.tv##.ng-star-inserted.block-mt.d-block.dabc
+www.iyf.tv##div.ng-star-inserted.bl:nth-of-type(3)
+www.iyf.tv##div.ng-star-inserted.bl:nth-of-type(1)
+www.iyf.tv##vg-pause-d
+
+! Chặn popup có nút X
+dienthoaigiakho.vn##+js(nostif, popup)
+
+! 21 thg 9, 2024 https://3dhay.com
+3dhay.com##div.block-item:nth-of-type(1)
+3dhay.com##.col-4
