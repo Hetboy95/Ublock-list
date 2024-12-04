@@ -2,7 +2,7 @@
 hhtq.xyz###catfish
 hhtq.xyz###underplayerbanner > center
 
-! 16 thg 11, 2024 https://hhpanda.li
+! 16 thg 11, 2024 https://hhpanda.vc
 /^https:\/\/(www\.)?hhpanda+\.?\/ad\//
 ###overlay
 ##div.banner-sticky-footer-ad:nth-of-type(1)
@@ -12,6 +12,11 @@ hhtq.xyz###underplayerbanner > center
 ###tab_1
 ###xs-addd0
 ##div.show_all_eps.halim-server:nth-of-type(3)
+##.under-player a[href^="https://net88.day/"]
+##center > [href^="https://tip.club/"]
+##.underplayer_btn > a[href^="https://net88.day/"]
+##a[href^="https://debet.moi/"]:nth-of-type(2)
+##a[href^="https://debet.moi/"]:nth-of-type(3)
 
 ! 16 thg 11, 2024 https://animevietsub.cx
 /^https:\/\/(www\.)?animevietsub+\.?\/ad\//
