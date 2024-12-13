@@ -1,38 +1,34 @@
-! 16 thg 11, 2024 https://hhtq.xyz
+!https://hhtq.xyz
 hhtq.xyz###catfish
 hhtq.xyz###underplayerbanner > center
 
-! 16 thg 11, 2024 https://hhpanda.vc
-/^https:\/\/(www\.)?hhpanda+\.?\/ad\//
-###overlay
-##div.banner-sticky-footer-ad:nth-of-type(1)
-##.container.banner-sticky-footer-container
-###top_addd
-###tab_2
-###tab_1
-###xs-addd0
-##div.show_all_eps.halim-server:nth-of-type(3)
-##.under-player a[href^="https://net88.day/"]
-##center > [href^="https://tip.club/"]
-##.underplayer_btn > a[href^="https://net88.day/"]
-##a[href^="https://debet.moi/"]:nth-of-type(2)
-##a[href^="https://debet.moi/"]:nth-of-type(3)
+!https://hhpanda.vc
+hhpanda.vc###overlay
+hhpanda.vc##div.banner-sticky-footer-ad:nth-of-type(1)
+hhpanda.vc##.container.banner-sticky-footer-container
+hhpanda.vc###top_addd
+hhpanda.vc###tab_2
+hhpanda.vc###tab_1
+hhpanda.vc###xs-addd0
+hhpanda.vc##div.show_all_eps.halim-server:nth-of-type(3)
+[href^="https://net88.day/"]
+[href^="https://tip.club/"]
+[href^="https://net88.day/"]
+[href^="https://debet.moi/"]:nth-of-type(2)
+[href^="https://debet.moi/"]:nth-of-type(3)
 
-! 16 thg 11, 2024 https://animevietsub.cx
-/^https:\/\/(www\.)?animevietsub+\.?\/ad\//
-##.notif-300 > div
-###showChonLoc
-###mv-keywords
-##.tag-list-main
+!https://animevietsub.cx
+animevietsub.cx##.notif-300 > div
+animevietsub.cx###showChonLoc
+animevietsub.cx###mv-keywords
+animevietsub.cx##.tag-list-main
 
-! 16 thg 11, 2024 https://dongchill.online
-/^https:\/\/(www\.)?dongchill+\.?\/ad\//
-###overlay
-###footer_fixed_ads
-###top_addd
+!https://dongchill.online
+dongchill.online###overlay
+dongchill.online###footer_fixed_ads
+dongchill.online###top_addd
 
-! 30 thg 11, 2024 https://www.todawa112.site
-/^https:\/\/(www\.)?todawa[0-9]+\.?\/ad\//
+!https://www.todawa112.site
 ##[href="http://wn-st.com"]
 ##[href="http://1bet1.vip"]
 ##[href="https://lula.ooo"]
@@ -41,6 +37,6 @@ hhtq.xyz###underplayerbanner > center
 ##[href^="https://nulpurn.com/shop/item.php"]
 ##[href^="https://nulppurun.com/shop/item.php"]
 
-! 30 thg 11, 2024 https://animehay.ink
-/^https:\/\/(www\.)?animehay+\.?\/ad\//
-##body > div:nth-of-type(3) > div > div:nth-of-type(3)
+!https://animehay.ink
+animehay.ink##body > div:nth-of-type(3) > div > div:nth-of-type(3)
+
