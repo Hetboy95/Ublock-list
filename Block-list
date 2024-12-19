@@ -13,15 +13,21 @@ hhpanda.vc###xs-addd0
 hhpanda.vc##div.show_all_eps.halim-server:nth-of-type(3)
 [href^="https://net88.day/"]
 [href^="https://tip.club/"]
-[href^="https://net88.day/"]
 [href^="https://debet.moi/"]:nth-of-type(2)
 [href^="https://debet.moi/"]:nth-of-type(3)
 
 !https://animevietsub.cx
-animevietsub.cx##.notif-300 > div
-animevietsub.cx###showChonLoc
-animevietsub.cx###mv-keywords
-animevietsub.cx##.tag-list-main
+##[href="javascript:hide_catfix()"]
+##[href^="https://max88.com/"]
+##[href="https://6686vn.biz/dl73"]
+##[href^="https://net88.onl/"]
+##[href="https://bit.ly/3N4cXqn"]
+##[href^="https://vin88.com/"]
+##[href^="https://man.top/"]
+animevietsub.info##.notif-300 > div
+animevietsub.info###showChonLoc
+animevietsub.info###mv-keywords
+animevietsub.info##.tag-list-main
 
 !https://dongchill.online
 dongchill.online###overlay
@@ -39,4 +45,3 @@ dongchill.online###top_addd
 
 !https://animehay.ink
 animehay.ink##body > div:nth-of-type(3) > div > div:nth-of-type(3)
-
