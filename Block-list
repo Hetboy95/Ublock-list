@@ -1,3 +1,6 @@
+! Youtube force h264
+www.youtube.com##+js(trusted-replace-argument, MediaSource.isTypeSupported, 0, 0, condition, /vp0?9|av0?1/)
+
 !https://hhtq.xyz
 hhtq.xyz###catfish
 hhtq.xyz###underplayerbanner > center
@@ -16,7 +19,7 @@ hhpanda.vc##div.show_all_eps.halim-server:nth-of-type(3)
 [href^="https://debet.moi/"]:nth-of-type(2)
 [href^="https://debet.moi/"]:nth-of-type(3)
 
-!https://animevietsub.cx
+!https://animevietsub.video
 ##[href="javascript:hide_catfix()"]
 ##[href^="https://max88.com/"]
 ##[href="https://6686vn.biz/dl73"]
@@ -24,10 +27,10 @@ hhpanda.vc##div.show_all_eps.halim-server:nth-of-type(3)
 ##[href="https://bit.ly/3N4cXqn"]
 ##[href^="https://vin88.com/"]
 ##[href^="https://man.top/"]
-animevietsub.info##.notif-300 > div
-animevietsub.info###showChonLoc
-animevietsub.info###mv-keywords
-animevietsub.info##.tag-list-main
+animevietsub.video##.notif-300 > div
+animevietsub.video###showChonLoc
+animevietsub.video###mv-keywords
+animevietsub.video##.tag-list-main
 
 !https://dongchill.online
 dongchill.online###overlay
