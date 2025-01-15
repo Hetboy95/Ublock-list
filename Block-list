@@ -1,23 +1,31 @@
 ! Youtube force h264
-www.youtube.com##+js(trusted-replace-argument, MediaSource.isTypeSupported, 0, 0, condition, /vp0?9|av0?1/)
+www.youtube.com##+js(trusted-replace-argument, MediaSource.isTypeSupported, 0, 0, condition, /av0?1/)
+!Youtube anti adblock
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
+!Youtube delay
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
 
 !https://hhtq.xyz
 hhtq.xyz###catfish
 hhtq.xyz###underplayerbanner > center
 
-!https://hhpanda.vc
-hhpanda.vc###overlay
-hhpanda.vc##div.banner-sticky-footer-ad:nth-of-type(1)
-hhpanda.vc##.container.banner-sticky-footer-container
-hhpanda.vc###top_addd
-hhpanda.vc###tab_2
-hhpanda.vc###tab_1
-hhpanda.vc###xs-addd0
-hhpanda.vc##div.show_all_eps.halim-server:nth-of-type(3)
-[href^="https://net88.day/"]
-[href^="https://tip.club/"]
-[href^="https://debet.moi/"]:nth-of-type(2)
-[href^="https://debet.moi/"]:nth-of-type(3)
+!https://hhpanda.love
+hhpanda.love###overlay
+hhpanda.love##div.banner-sticky-footer-ad:nth-of-type(1)
+hhpanda.love##.container.banner-sticky-footer-container
+hhpanda.love###top_addd
+hhpanda.love###tab_2
+hhpanda.love###tab_1
+hhpanda.love###xs-addd0
+hhpanda.love##div.show_all_eps.halim-server:nth-of-type(3)
+##[href^="https://net88.day/"]
+##[href^="https://tip.club/"]
+##[href^="https://debet.moi/"]:nth-of-type(2)
+##[href^="https://debet.moi/"]:nth-of-type(3)
 
 !https://animevietsub.biz
 ##[href^="https://net88.tv/"]
@@ -28,10 +36,12 @@ hhpanda.vc##div.show_all_eps.halim-server:nth-of-type(3)
 ##[href="https://bit.ly/3N4cXqn"]
 ##[href^="https://vin88.com/"]
 ##[href^="https://man.top/"]
-animevietsub.biz##.notif-300 > div
-animevietsub.biz###showChonLoc
-animevietsub.biz###mv-keywords
-animevietsub.biz##.tag-list-main
+##[href^="https://hit.club/"]
+##[href^="https://vb88.com/"]
+animevietsub.page##.notif-300 > div
+animevietsub.page###showChonLoc
+animevietsub.page###mv-keywords
+animevietsub.page##.tag-list-main
 
 !https://dongchill.online
 dongchill.online###overlay
@@ -46,6 +56,8 @@ dongchill.online###top_addd
 ##[href^="https://rush77.com/"]
 ##[href^="https://nulpurn.com/shop/item.php"]
 ##[href^="https://nulppurun.com/shop/item.php"]
+##[href="http://ww-ot.com"]
+##[href="https://dpstore.kr"]
 
-!https://animehay.ink
-animehay.ink##body > div:nth-of-type(3) > div > div:nth-of-type(3)
+! 31 thg 12, 2024 https://tieba.baidu.com
+tieba.baidu.com##.tieba-custom-pass-login
