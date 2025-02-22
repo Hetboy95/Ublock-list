@@ -9,19 +9,22 @@ youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
 www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
 
+www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
+
 !https://hhtq.xyz
 hhtq.xyz###catfish
+hhtq.xyz###header-ads > div
 hhtq.xyz###underplayerbanner > center
 
-!https://hhpanda.love
-hhpanda.love###overlay
-hhpanda.love##div.banner-sticky-footer-ad:nth-of-type(1)
-hhpanda.love##.container.banner-sticky-footer-container
-hhpanda.love###top_addd
-hhpanda.love###tab_2
-hhpanda.love###tab_1
-hhpanda.love###xs-addd0
-hhpanda.love##div.show_all_eps.halim-server:nth-of-type(3)
+!https://hhpanda.my
+/^(hhpanda).[a-z]{2,5}$/###overlay
+/^(hhpanda).[a-z]{2,5}$/##div.banner-sticky-footer-ad:nth-of-type(1)
+/^(hhpanda).[a-z]{2,5}$/##.container.banner-sticky-footer-container
+/^(hhpanda).[a-z]{2,5}$/###top_addd
+/^(hhpanda).[a-z]{2,5}$/###tab_2
+/^(hhpanda).[a-z]{2,5}$/###tab_1
+/^(hhpanda).[a-z]{2,5}$/###xs-addd0
+/^(hhpanda).[a-z]{2,5}$/##div.show_all_eps.halim-server:nth-of-type(3)
 ##[href^="https://net88.day/"]
 ##[href^="https://tip.club/"]
 ##[href^="https://debet.moi/"]:nth-of-type(2)
@@ -38,15 +41,15 @@ hhpanda.love##div.show_all_eps.halim-server:nth-of-type(3)
 ##[href^="https://man.top/"]
 ##[href^="https://hit.club/"]
 ##[href^="https://vb88.com/"]
-animevietsub.page##.notif-300 > div
-animevietsub.page###showChonLoc
-animevietsub.page###mv-keywords
-animevietsub.page##.tag-list-main
+/^(animevietsub).[a-z]{2,5}$/##.notif-300 > div
+/^(animevietsub).[a-z]{2,5}$/###showChonLoc
+/^(animevietsub).[a-z]{2,5}$/###mv-keywords
+/^(animevietsub).[a-z]{2,5}$/##.tag-list-main
 
 !https://dongchill.online
-dongchill.online###overlay
-dongchill.online###footer_fixed_ads
-dongchill.online###top_addd
+/^(dongchill).[a-z]{2,5}$/###overlay
+/^(dongchill).[a-z]{2,5}$/###footer_fixed_ads
+/^(dongchill).[a-z]{2,5}$/###top_addd
 
 !https://www.todawa112.site
 ##[href="http://wn-st.com"]
@@ -58,6 +61,66 @@ dongchill.online###top_addd
 ##[href^="https://nulppurun.com/shop/item.php"]
 ##[href="http://ww-ot.com"]
 ##[href="https://dpstore.kr"]
+##[href="https://xn--av-vz6iq3sb6q.com"]
+##[href="https://eko-a.com"]
+##[href^="https://filecast.co.kr/"]
 
 ! 31 thg 12, 2024 https://tieba.baidu.com
 tieba.baidu.com##.tieba-custom-pass-login
+
+! 16 thg 1, 2025 https://tieba.baidu.com
+tieba.baidu.com##.right_bright.right_section
+tieba.baidu.com##.tb_rich_poster
+tieba.baidu.com###pagelet_frs-aside\/pagelet\/aside
+tieba.baidu.com##.tbui_aside_float_bar
+
+! 3 thg 2, 2025 https://torrentsee271.com
+##[href="/go/1170"]
+##[href="/go/1229"]
+##[href="/go/1192"]
+##[href="/go/1111"]
+##[href="/go/1208"]
+##[href="/go/538"]
+##[href="/go/543"]
+##[href="/go/542"]
+##[href="/go/1158"]
+##[href="/go/813"]
+##[href="/go/1217"]
+##[href="/go/930"]
+##[href="/go/906"]
+##[href="/go/973"]
+##[href="/go/1303"]
+##[href="/go/974"]
+##[href="/go/908"]
+##[href="/go/1227"]
+##[href="/go/1228"]
+##[href="/go/1226"]
+##[href="/go/731"]
+##[href="/go/732"]
+##[href="/go/730"]
+##[href="/go/1154"]
+##[href="/go/681"]
+##[href="/go/1159"]
+/^(torrentsee)[a-z0-9]*\.[a-z]{2,5}$/###ad_1154
+/^(torrentsee)[a-z0-9]*\.[a-z]{2,5}$/###ad_730
+/^(torrentsee)[a-z0-9]*\.[a-z]{2,5}$/###ad_732
+/^(torrentsee)[a-z0-9]*\.[a-z]{2,5}$/###ad_731
+
+! 12 thg 2, 2025 https://a8.dasibogo.net
+##[href="http://wbcbro.com/@KsBtH"]
+##[href="http://tksxk099.com/"]
+/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##figure.size-full.wp-block-image:nth-of-type(2)
+/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##figure.size-full.wp-block-image:nth-of-type(3)
+/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##figure.size-full.wp-block-image:nth-of-type(4)
+/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##figure.size-full.wp-block-image:nth-of-type(5)
+/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##div.vc_row-fluid.wpb_row.vc_row:nth-of-type(1)
+/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##.wp-block-gallery-is-layout-flex.is-layout-flex.wp-block-gallery-1.is-cropped.columns-default.has-nested-images.wp-block-gallery
+/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##.wpb_content_element.wpb_text_column
+/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##div.vc_row-fluid.wpb_row.vc_row:nth-of-type(12)
+/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##div.vc_row-fluid.wpb_row.vc_row:nth-of-type(13)
+
+! 21 thg 2, 2025 https://www.fandomwithattitude.com
+www.fandomwithattitude.com##.type-cover.is-visible.HTML.widget
+www.fandomwithattitude.com###HTML4
+www.fandomwithattitude.com###HTML3
+www.fandomwithattitude.com##.type-grid.is-visible.HTML.widget
