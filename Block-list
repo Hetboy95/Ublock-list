@@ -41,10 +41,15 @@ hhtq.xyz###underplayerbanner > center
 ##[href^="https://man.top/"]
 ##[href^="https://hit.club/"]
 ##[href^="https://vb88.com/"]
+##[href^="https://debet.mn/"]
+##[href^="https://ad.gem.win/"]
+##[href^="https://vin88.net/"]
+##[href^="https://ga88.pro/"]
 /^(animevietsub).[a-z]{2,5}$/##.notif-300 > div
 /^(animevietsub).[a-z]{2,5}$/###showChonLoc
 /^(animevietsub).[a-z]{2,5}$/###mv-keywords
 /^(animevietsub).[a-z]{2,5}$/##.tag-list-main
+/^(animevietsub).[a-z]{2,5}$/##.mobile-catfish-top
 
 !https://dongchill.online
 /^(dongchill).[a-z]{2,5}$/###overlay
@@ -64,6 +69,7 @@ hhtq.xyz###underplayerbanner > center
 ##[href="https://xn--av-vz6iq3sb6q.com"]
 ##[href="https://eko-a.com"]
 ##[href^="https://filecast.co.kr/"]
+##[href="https://dponline.kr"]
 
 ! 31 thg 12, 2024 https://tieba.baidu.com
 tieba.baidu.com##.tieba-custom-pass-login
