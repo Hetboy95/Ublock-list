@@ -44,6 +44,8 @@ hhtq.xyz###underplayerbanner > center
 ##[href^="https://ad.gem.win/"]
 ##[href^="https://vin88.net/"]
 ##[href^="https://ga88.pro/"]
+##[href^="https://tai.win79.com/"]
+##[href^="https://net88.sh/"]
 /^(animevietsub).[a-z]{2,5}$/##.notif-300 > div
 /^(animevietsub).[a-z]{2,5}$/###showChonLoc
 /^(animevietsub).[a-z]{2,5}$/###mv-keywords
