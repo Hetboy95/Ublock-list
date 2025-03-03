@@ -17,7 +17,6 @@ hhtq.xyz###header-ads > div
 hhtq.xyz###underplayerbanner > center
 
 !https://hhpanda.my
-/^(hhpanda).[a-z]{2,5}$/###overlay
 /^(hhpanda).[a-z]{2,5}$/##div.banner-sticky-footer-ad:nth-of-type(1)
 /^(hhpanda).[a-z]{2,5}$/##.container.banner-sticky-footer-container
 /^(hhpanda).[a-z]{2,5}$/###top_addd
@@ -130,3 +129,11 @@ www.fandomwithattitude.com##.type-cover.is-visible.HTML.widget
 www.fandomwithattitude.com###HTML4
 www.fandomwithattitude.com###HTML3
 www.fandomwithattitude.com##.type-grid.is-visible.HTML.widget
+
+! 1 thg 3, 2025 https://ohitv.vin
+##[href="https://154.82.109.161/1534657.html"]
+/^(ohitv).[a-z]{2,5}$/##.ad-popup
+
+! 3 thg 3, 2025 https://www.iyf.tv
+##vg-pause-ads
+##vg-pause-f
