@@ -10,6 +10,19 @@ www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
 
 www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
+! Tắt góc bo hình thu nhỏ và video
+youtube.com###ytd-player:style(border-radius: 0 !important;)
+youtube.com###thumbnail:style(border-radius: 0 !important;)
+! YouTube 4 Videos Per Row Fix (Home and Channel Pages) 
+youtube.com##ytd-rich-grid-row:style(display:contents !important;)
+youtube.com###contents.ytd-rich-grid-row:style(display:contents !important;)
+youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important;)
+! YouTube 4 Videos Per Row Fix (Channel Page margin fix)
+youtube.com##ytd-rich-item-renderer:style(margin-right: calc(var(--ytd-rich-grid-item-margin)/2) !important; margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important;)
+! YouTube 4 Videos Per Row Fix (Font Size fix)
+youtube.com###video-title.ytd-rich-grid-media:style(font-size: 1.4rem !important; line-height: 2rem !important;)
+youtube.com###metadata-line.ytd-video-meta-block:style(font-size: 1.2rem !important; line-height: 1.8rem !important;)
+youtube.com###video-title.ytd-rich-grid-slim-media:style(font-size: 1.4rem !important; line-height: 2rem !important;)
 
 !https://hhtq.xyz
 hhtq.xyz###catfish
@@ -24,10 +37,19 @@ hhtq.xyz###underplayerbanner > center
 /^(hhpanda).[a-z]{2,5}$/###tab_1
 /^(hhpanda).[a-z]{2,5}$/###xs-addd0
 /^(hhpanda).[a-z]{2,5}$/##div.show_all_eps.halim-server:nth-of-type(3)
+/^(hhpanda).[a-z]{2,5}$/##.overlay_content
+/^(hhpanda).[a-z]{2,5}$/###overlay
+##.ads.cls_ov
 ##[href^="https://net88.day/"]
 ##[href^="https://tip.club/"]
 ##[href^="https://debet.moi/"]:nth-of-type(2)
 ##[href^="https://debet.moi/"]:nth-of-type(3)
+##[href^="https://net88.sh/"]
+##[href^="https://b52.cc/"]
+##[href^="https://tipclub.win/"]
+##[href^="https://da88.win/"]
+##[href^="https://top88.vip/"]
+##[href^="https://tipclub.win/"]
 
 !https://animevietsub.biz
 ##[href^="https://net88.tv/"]
@@ -44,9 +66,6 @@ hhtq.xyz###underplayerbanner > center
 ##[href^="https://ad.gem.win/"]
 ##[href^="https://vin88.net/"]
 ##[href^="https://ga88.pro/"]
-##[href^="https://tai.win79.com/"]
-##[href^="https://net88.sh/"]
-##[href^="https://8live.biz/"]
 /^(animevietsub).[a-z]{2,5}$/##.notif-300 > div
 /^(animevietsub).[a-z]{2,5}$/###showChonLoc
 /^(animevietsub).[a-z]{2,5}$/###mv-keywords
@@ -72,6 +91,8 @@ hhtq.xyz###underplayerbanner > center
 ##[href="https://eko-a.com"]
 ##[href^="https://filecast.co.kr/"]
 ##[href="https://dponline.kr"]
+##[href^="https://www.filetender.com/ad.php"]
+##[href^="https://www.filetender.com/ad.php"]
 
 ! 31 thg 12, 2024 https://tieba.baidu.com
 tieba.baidu.com##.tieba-custom-pass-login
@@ -140,3 +161,18 @@ www.fandomwithattitude.com##.type-grid.is-visible.HTML.widget
 ! 3 thg 3, 2025 https://www.iyf.tv
 ##vg-pause-ads
 ##vg-pause-f
+
+! 12 thg 3, 2025 https://mega.nz
+mega.nz###commercial-wrapper-webfilinkb
+mega.nz###commercial-wrapper-weblinkb > .commercial-close-button > .icon-dialog-close.sprite-fm-mono
+mega.nz##.fm-right-files-block > .commercial-wrapper
+
+! 26 thg 3, 2025 https://ohitv.pro
+ohitv.pro##.ad-catfish-button-close
+##[href*="https://www.winj1b1o4.com/vn/GQRP"]
+
+! 15 thg 4, 2025 https://www.iyf.tv
+www.iyf.tv##.rec.mb-3.container
+
+! Chặn popup
+examtopics.com###notRemoverPopup
