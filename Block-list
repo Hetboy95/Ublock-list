@@ -1,18 +1,3 @@
-! Youtube force h264
-www.youtube.com##+js(trusted-replace-argument, MediaSource.isTypeSupported, 0, 0, condition, /av0?1/)
-!Youtube anti adblock
-youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
-youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
-youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
-youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
-!Youtube delay
-www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
-
-www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
-! Tắt góc bo hình thu nhỏ và video
-youtube.com###ytd-player:style(border-radius: 0 !important;)
-youtube.com###thumbnail:style(border-radius: 0 !important;)
 ! YouTube 4 Videos Per Row Fix (Home and Channel Pages) 
 youtube.com##ytd-rich-grid-row:style(display:contents !important;)
 youtube.com###contents.ytd-rich-grid-row:style(display:contents !important;)
@@ -24,12 +9,18 @@ youtube.com###video-title.ytd-rich-grid-media:style(font-size: 1.4rem !important
 youtube.com###metadata-line.ytd-video-meta-block:style(font-size: 1.2rem !important; line-height: 1.8rem !important;)
 youtube.com###video-title.ytd-rich-grid-slim-media:style(font-size: 1.4rem !important; line-height: 2rem !important;)
 
-!https://hhtq.xyz
-hhtq.xyz###catfish
-hhtq.xyz###header-ads > div
-hhtq.xyz###underplayerbanner > center
+! block google search tự động dịch
+www.google.com##.Pa9Ggf:not([style="display:none"])
+www.google.com##.Pa9Ggf[style="display:none"]:style(display: block !important;)
+www.google.com##a[jsname="UWckNb"][data-tli][href^="https://translate.google.com/translate?"]
+www.google.com##a[jsname="UWckNb"][data-tli][style="display:none"]:style(display: block !important;)
+www.google.com##div[jscontroller="Vxh2ib"]
 
-!https://hhpanda.my
+! chặn dừng video khi chuyển tab
+tiktok.com##+js(aeld, visibilitychange, )
+facebook.com##+js(aeld, visibilitychange, applyWithGuard)
+
+!https://hhpanda.ee
 /^(hhpanda).[a-z]{2,5}$/##div.banner-sticky-footer-ad:nth-of-type(1)
 /^(hhpanda).[a-z]{2,5}$/##.container.banner-sticky-footer-container
 /^(hhpanda).[a-z]{2,5}$/###top_addd
@@ -51,7 +42,7 @@ hhtq.xyz###underplayerbanner > center
 ##[href^="https://top88.vip/"]
 ##[href^="https://tipclub.win/"]
 
-!https://animevietsub.biz
+!https://animevietsub.lol
 ##[href^="https://net88.tv/"]
 ##[href="javascript:hide_catfix()"]
 ##[href^="https://max88.com/"]
@@ -70,109 +61,35 @@ hhtq.xyz###underplayerbanner > center
 /^(animevietsub).[a-z]{2,5}$/###showChonLoc
 /^(animevietsub).[a-z]{2,5}$/###mv-keywords
 /^(animevietsub).[a-z]{2,5}$/##.tag-list-main
+/^(animevietsub).[a-z]{2,5}$/##.ads-textlink
 /^(animevietsub).[a-z]{2,5}$/##.mobile-catfish-top
+/^(animevietsub).[a-z]{2,5}$/##.widget-area
 
-!https://dongchill.online
-/^(dongchill).[a-z]{2,5}$/###overlay
-/^(dongchill).[a-z]{2,5}$/###footer_fixed_ads
-/^(dongchill).[a-z]{2,5}$/###top_addd
+! 18 thg 7, 2025 https://hhtq.xyz
+hhtq.xyz##.closecf
+##[href="https://154.82.109.157/1444948.html"]
+||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTRbix9gwpQpjTJBPXTsrx0zA8myL1z0ji5UzaFzLar6Cs1P-84Xd8i8YiCDywBjk-KQR_0oNNoEB-ZIg3zQLnyJqp0IF_OQiFOWzijYSyOxzESYpoyhMQJNDvSU_uvjyX903Fqjd7XGOcTGj2x1pfVjX5FwYdkQWKZ_QKIlweAZG1IC6lj_JKspOC1nE/s0/a728x90.gif$image
 
-!https://www.todawa112.site
-##[href="http://wn-st.com"]
-##[href="http://1bet1.vip"]
-##[href="https://lula.ooo"]
-##[href="https://drugpharm.live"]
-##[href^="https://rush77.com/"]
-##[href^="https://nulpurn.com/shop/item.php"]
-##[href^="https://nulppurun.com/shop/item.php"]
-##[href="http://ww-ot.com"]
-##[href="https://dpstore.kr"]
-##[href="https://xn--av-vz6iq3sb6q.com"]
-##[href="https://eko-a.com"]
-##[href^="https://filecast.co.kr/"]
-##[href="https://dponline.kr"]
-##[href^="https://www.filetender.com/ad.php"]
-##[href^="https://www.filetender.com/ad.php"]
+! 20 thg 7, 2025 http://localhost:3008
+localhost##.narration-section
+localhost##.collapsed.video-rendering-section
+localhost##.collapsed.background-generator-container
 
-! 31 thg 12, 2024 https://tieba.baidu.com
-tieba.baidu.com##.tieba-custom-pass-login
+! 21 thg 7, 2025 https://tvroom10.org
+tvroom10.org##ul.menu.fs-margin:nth-of-type(3)
+tvroom10.org##.anchor_banner.fs-margin-section.section-box
+tvroom10.org##div.fs-margin-section.section-box:nth-of-type(2)
 
-! 16 thg 1, 2025 https://tieba.baidu.com
-tieba.baidu.com##.right_bright.right_section
-tieba.baidu.com##.tb_rich_poster
-tieba.baidu.com###pagelet_frs-aside\/pagelet\/aside
-tieba.baidu.com##.tbui_aside_float_bar
+! 21 thg 7, 2025 https://theboda4.com
+theboda4.com##div.el-col-24.el-col:nth-of-type(3)
 
-! 3 thg 2, 2025 https://torrentsee271.com
-##[href="/go/1170"]
-##[href="/go/1229"]
-##[href="/go/1192"]
-##[href="/go/1111"]
-##[href="/go/1208"]
-##[href="/go/538"]
-##[href="/go/543"]
-##[href="/go/542"]
-##[href="/go/1158"]
-##[href="/go/813"]
-##[href="/go/1217"]
-##[href="/go/930"]
-##[href="/go/906"]
-##[href="/go/973"]
-##[href="/go/1303"]
-##[href="/go/974"]
-##[href="/go/908"]
-##[href="/go/1227"]
-##[href="/go/1228"]
-##[href="/go/1226"]
-##[href="/go/731"]
-##[href="/go/732"]
-##[href="/go/730"]
-##[href="/go/1154"]
-##[href="/go/681"]
-##[href="/go/1159"]
-/^(torrentsee)[a-z0-9]*\.[a-z]{2,5}$/###ad_1154
-/^(torrentsee)[a-z0-9]*\.[a-z]{2,5}$/###ad_730
-/^(torrentsee)[a-z0-9]*\.[a-z]{2,5}$/###ad_732
-/^(torrentsee)[a-z0-9]*\.[a-z]{2,5}$/###ad_731
-
-! 12 thg 2, 2025 https://a8.dasibogo.net
-##[href="http://wbcbro.com/@KsBtH"]
-##[href="http://tksxk099.com/"]
-/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##figure.size-full.wp-block-image:nth-of-type(2)
-/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##figure.size-full.wp-block-image:nth-of-type(3)
-/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##figure.size-full.wp-block-image:nth-of-type(4)
-/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##figure.size-full.wp-block-image:nth-of-type(5)
-/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##div.vc_row-fluid.wpb_row.vc_row:nth-of-type(1)
-/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##.wp-block-gallery-is-layout-flex.is-layout-flex.wp-block-gallery-1.is-cropped.columns-default.has-nested-images.wp-block-gallery
-/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##.wpb_content_element.wpb_text_column
-/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##div.vc_row-fluid.wpb_row.vc_row:nth-of-type(12)
-/^([a-z0-9]{1,4}\.)?(dasibogo)[a-z0-9]*\.[a-z]{2,5}$/##div.vc_row-fluid.wpb_row.vc_row:nth-of-type(13)
-
-! 21 thg 2, 2025 https://www.fandomwithattitude.com
-www.fandomwithattitude.com##.type-cover.is-visible.HTML.widget
-www.fandomwithattitude.com###HTML4
-www.fandomwithattitude.com###HTML3
-www.fandomwithattitude.com##.type-grid.is-visible.HTML.widget
-
-! 1 thg 3, 2025 https://ohitv.vin
-##[href="https://154.82.109.161/1534657.html"]
-/^(ohitv).[a-z]{2,5}$/##.ad-popup
-
-! 3 thg 3, 2025 https://www.iyf.tv
-##vg-pause-ads
-##vg-pause-f
-
-! 12 thg 3, 2025 https://mega.nz
-mega.nz###commercial-wrapper-webfilinkb
-mega.nz###commercial-wrapper-weblinkb > .commercial-close-button > .icon-dialog-close.sprite-fm-mono
-mega.nz##.fm-right-files-block > .commercial-wrapper
-
-! 26 thg 3, 2025 https://ohitv.pro
-ohitv.pro##.ad-catfish-button-close
-##[href*="https://www.winj1b1o4.com/vn/GQRP"]
-
-! 15 thg 4, 2025 https://www.iyf.tv
-www.iyf.tv##.rec.mb-3.container
-
-! Chặn popup
-examtopics.com###notRemoverPopup
+! 23 thg 7, 2025 https://www.iyf.tv
+www.iyf.tv##div.new-list:nth-of-type(9)
+www.iyf.tv##div.new-list:nth-of-type(8)
+www.iyf.tv##div.new-list:nth-of-type(7)
+www.iyf.tv##div.new-list:nth-of-type(6)
+www.iyf.tv##div.new-list:nth-of-type(5)
+www.iyf.tv##div.new-list:nth-of-type(4)
+www.iyf.tv##div.new-list:nth-of-type(3)
+www.iyf.tv##div.new-list:nth-of-type(2)
+www.iyf.tv##app-discovery-in-home
