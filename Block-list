@@ -2,94 +2,55 @@
 youtube.com##ytd-rich-grid-row:style(display:contents !important;)
 youtube.com###contents.ytd-rich-grid-row:style(display:contents !important;)
 youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important;)
-! YouTube 4 Videos Per Row Fix (Channel Page margin fix)
+! YouTube 5 Videos Per Row Fix (Channel Page margin fix)
 youtube.com##ytd-rich-item-renderer:style(margin-right: calc(var(--ytd-rich-grid-item-margin)/2) !important; margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important;)
-! YouTube 4 Videos Per Row Fix (Font Size fix)
+! YouTube 5 Videos Per Row Fix (Font Size fix)
 youtube.com###video-title.ytd-rich-grid-media:style(font-size: 1.4rem !important; line-height: 2rem !important;)
 youtube.com###metadata-line.ytd-video-meta-block:style(font-size: 1.2rem !important; line-height: 1.8rem !important;)
 youtube.com###video-title.ytd-rich-grid-slim-media:style(font-size: 1.4rem !important; line-height: 2rem !important;)
 
-! block google search tự động dịch
-www.google.com##.Pa9Ggf:not([style="display:none"])
-www.google.com##.Pa9Ggf[style="display:none"]:style(display: block !important;)
-www.google.com##a[jsname="UWckNb"][data-tli][href^="https://translate.google.com/translate?"]
-www.google.com##a[jsname="UWckNb"][data-tli][style="display:none"]:style(display: block !important;)
-www.google.com##div[jscontroller="Vxh2ib"]
-
-! chặn dừng video khi chuyển tab
-tiktok.com##+js(aeld, visibilitychange, )
-facebook.com##+js(aeld, visibilitychange, applyWithGuard)
-
-!https://hhpanda.ee
-/^(hhpanda).[a-z]{2,5}$/##div.banner-sticky-footer-ad:nth-of-type(1)
-/^(hhpanda).[a-z]{2,5}$/##.container.banner-sticky-footer-container
-/^(hhpanda).[a-z]{2,5}$/###top_addd
-/^(hhpanda).[a-z]{2,5}$/###tab_2
-/^(hhpanda).[a-z]{2,5}$/###tab_1
-/^(hhpanda).[a-z]{2,5}$/###xs-addd0
-/^(hhpanda).[a-z]{2,5}$/##div.show_all_eps.halim-server:nth-of-type(3)
-/^(hhpanda).[a-z]{2,5}$/##.overlay_content
-/^(hhpanda).[a-z]{2,5}$/###overlay
-##.ads.cls_ov
-##[href^="https://net88.day/"]
-##[href^="https://tip.club/"]
-##[href^="https://debet.moi/"]:nth-of-type(2)
-##[href^="https://debet.moi/"]:nth-of-type(3)
-##[href^="https://net88.sh/"]
-##[href^="https://b52.cc/"]
-##[href^="https://tipclub.win/"]
-##[href^="https://da88.win/"]
-##[href^="https://top88.vip/"]
-##[href^="https://tipclub.win/"]
-
-!https://animevietsub.lol
-##[href^="https://net88.tv/"]
-##[href="javascript:hide_catfix()"]
-##[href^="https://max88.com/"]
-##[href="https://6686vn.biz/dl73"]
-##[href^="https://net88.onl/"]
-##[href="https://bit.ly/3N4cXqn"]
-##[href^="https://vin88.com/"]
-##[href^="https://man.top/"]
-##[href^="https://hit.club/"]
-##[href^="https://vb88.com/"]
-##[href^="https://debet.mn/"]
-##[href^="https://ad.gem.win/"]
-##[href^="https://vin88.net/"]
-##[href^="https://ga88.pro/"]
-/^(animevietsub).[a-z]{2,5}$/##.notif-300 > div
-/^(animevietsub).[a-z]{2,5}$/###showChonLoc
-/^(animevietsub).[a-z]{2,5}$/###mv-keywords
-/^(animevietsub).[a-z]{2,5}$/##.tag-list-main
-/^(animevietsub).[a-z]{2,5}$/##.ads-textlink
-/^(animevietsub).[a-z]{2,5}$/##.mobile-catfish-top
-/^(animevietsub).[a-z]{2,5}$/##.widget-area
-
-! 18 thg 7, 2025 https://hhtq.xyz
-hhtq.xyz##.closecf
+! Aug 31, 2025 https://hhtq.xyz
+hhninja.top##.closecf
 ##[href="https://154.82.109.157/1444948.html"]
-||blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTRbix9gwpQpjTJBPXTsrx0zA8myL1z0ji5UzaFzLar6Cs1P-84Xd8i8YiCDywBjk-KQR_0oNNoEB-ZIg3zQLnyJqp0IF_OQiFOWzijYSyOxzESYpoyhMQJNDvSU_uvjyX903Fqjd7XGOcTGj2x1pfVjX5FwYdkQWKZ_QKIlweAZG1IC6lj_JKspOC1nE/s0/a728x90.gif$image
+##[href="https://154.82.109.175/1826099.html"]
+##[href^="https://06lt88.com/"]
 
-! 20 thg 7, 2025 http://localhost:3008
-localhost##.narration-section
+! 31 thg 8, 2025 https://animevietsub.cam
+animevietsub.cam##.widget-area
+animevietsub.cam##.ads-textlink
+animevietsub.cam##.Footer > p
+animevietsub.cam##h4
+animevietsub.cam##.Copy > [href="https://animevietsub.cam"]
+animevietsub.cam##div.WebDescription:nth-of-type(3)
+animevietsub.cam##div.WebDescription:nth-of-type(2)
+
+! 31 thg 8, 2025 https://www.todawa152.site
+##.main-contener-lf > div > [href^="https://www.filetender.com/ad.php"]
+##div:nth-of-type(1) > [href^="https://nlfurn.com/shop/item.php"]
+##[href^="https://herbmming1.com/"]
+##[href^="https://filecast.co.kr/"]
+##.right-contener > div > [href^="https://www.filetender.com/ad.php"]
+##div:nth-of-type(2) > [href^="https://nlfurn.com/shop/item.php"]
+
+! 31 thg 8, 2025 https://www.iyf.tv
+||pptstatic.iyf.tv/upload/video/202508011431473105508.jpg$image
+www.iyf.tv##.ng-star-inserted.block-mt.d-block.dabf
+www.iyf.tv##div.ng-star-inserted.bl:nth-of-type(1)
+www.iyf.tv##div.ng-star-inserted.bl:nth-of-type(3)
+
+! 31 thg 8, 2025 https://www.dailymotion.com
+www.dailymotion.com##.WatchingDiscovery__adSection___eLtfR
+
+! 1 thg 9, 2025 http://localhost:3030
 localhost##.collapsed.video-rendering-section
 localhost##.collapsed.background-generator-container
+localhost##.video-preview
+localhost##.lyrics-container-wrapper
+localhost##.controls-timeline-container
+localhost##.translation-section
+localhost##.narration-section
 
-! 21 thg 7, 2025 https://tvroom10.org
-tvroom10.org##ul.menu.fs-margin:nth-of-type(3)
-tvroom10.org##.anchor_banner.fs-margin-section.section-box
-tvroom10.org##div.fs-margin-section.section-box:nth-of-type(2)
+! 3 thg 9, 2025 https://mifirm.net
+mifirm.net###block-mess
+mifirm.net##.bnud.holder
 
-! 21 thg 7, 2025 https://theboda4.com
-theboda4.com##div.el-col-24.el-col:nth-of-type(3)
-
-! 23 thg 7, 2025 https://www.iyf.tv
-www.iyf.tv##div.new-list:nth-of-type(9)
-www.iyf.tv##div.new-list:nth-of-type(8)
-www.iyf.tv##div.new-list:nth-of-type(7)
-www.iyf.tv##div.new-list:nth-of-type(6)
-www.iyf.tv##div.new-list:nth-of-type(5)
-www.iyf.tv##div.new-list:nth-of-type(4)
-www.iyf.tv##div.new-list:nth-of-type(3)
-www.iyf.tv##div.new-list:nth-of-type(2)
-www.iyf.tv##app-discovery-in-home
