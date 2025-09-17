@@ -8,6 +8,10 @@ youtube.com##ytd-rich-item-renderer:style(margin-right: calc(var(--ytd-rich-grid
 youtube.com###video-title.ytd-rich-grid-media:style(font-size: 1.4rem !important; line-height: 2rem !important;)
 youtube.com###metadata-line.ytd-video-meta-block:style(font-size: 1.2rem !important; line-height: 1.8rem !important;)
 youtube.com###video-title.ytd-rich-grid-slim-media:style(font-size: 1.4rem !important; line-height: 2rem !important;)
+! tắt tóm tắt trong chat
+www.youtube.com###visible-banners > .yt-live-chat-banner-manager.style-scope
+! Block-Youtube-End-Cards
+www.youtube.com##.ytp-ce-element
 
 ! Aug 31, 2025 https://hhtq.xyz
 hhninja.top##.closecf
@@ -23,6 +27,15 @@ animevietsub.cam##h4
 animevietsub.cam##.Copy > [href="https://animevietsub.cam"]
 animevietsub.cam##div.WebDescription:nth-of-type(3)
 animevietsub.cam##div.WebDescription:nth-of-type(2)
+
+! 1 thg 9, 2025 http://localhost:3030
+localhost##.collapsed.video-rendering-section
+localhost##.collapsed.background-generator-container
+localhost##.video-preview
+localhost##.lyrics-container-wrapper
+localhost##.controls-timeline-container
+localhost##.translation-section
+localhost##.narration-section
 
 ! 31 thg 8, 2025 https://www.todawa152.site
 ##.main-contener-lf > div > [href^="https://www.filetender.com/ad.php"]
@@ -41,16 +54,16 @@ www.iyf.tv##div.ng-star-inserted.bl:nth-of-type(3)
 ! 31 thg 8, 2025 https://www.dailymotion.com
 www.dailymotion.com##.WatchingDiscovery__adSection___eLtfR
 
-! 1 thg 9, 2025 http://localhost:3030
-localhost##.collapsed.video-rendering-section
-localhost##.collapsed.background-generator-container
-localhost##.video-preview
-localhost##.lyrics-container-wrapper
-localhost##.controls-timeline-container
-localhost##.translation-section
-localhost##.narration-section
-
 ! 3 thg 9, 2025 https://mifirm.net
 mifirm.net###block-mess
 mifirm.net##.bnud.holder
+
+! 9 thg 9, 2025 https://oneclick-subtitles-generator.vercel.app
+oneclick-subtitles-generator.vercel.app##.translation-section
+oneclick-subtitles-generator.vercel.app##.narration-section
+oneclick-subtitles-generator.vercel.app##.collapsed.video-rendering-section
+oneclick-subtitles-generator.vercel.app##.collapsed.background-generator-container
+
+! Tắt CSS cho nhanh, nhẹ
+*##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
 
