@@ -19,14 +19,20 @@ hhninja.top##.closecf
 ##[href="https://154.82.109.175/1826099.html"]
 ##[href^="https://06lt88.com/"]
 
-! 31 thg 8, 2025 https://animevietsub.cam
-animevietsub.cam##.widget-area
-animevietsub.cam##.ads-textlink
-animevietsub.cam##.Footer > p
-animevietsub.cam##h4
-animevietsub.cam##.Copy > [href="https://animevietsub.cam"]
-animevietsub.cam##div.WebDescription:nth-of-type(3)
-animevietsub.cam##div.WebDescription:nth-of-type(2)
+! 25 thg 9, 2025 https://animevietsub.show
+animevietsub.show##.widget-area
+animevietsub.show###mv-keywords
+animevietsub.show##.ads-textlink
+animevietsub.show##.Footer > p
+animevietsub.show##h4
+animevietsub.show##.Copy
+animevietsub.show##div.WebDescription:nth-of-type(3)
+animevietsub.show##div.WebDescription:nth-of-type(2)
+animevietsub.show##.announcement
+animevietsub.show##.modern-anime-container
+animevietsub.show##main > .watch-notice
+animevietsub.show##div.Wdgt:nth-of-type(7)
+animevietsub.show###new-home
 
 ! 1 thg 9, 2025 http://localhost:3030
 localhost##.collapsed.video-rendering-section
@@ -66,8 +72,7 @@ oneclick-subtitles-generator.vercel.app##.collapsed.background-generator-contain
 
 ! Tắt CSS cho nhanh, nhẹ
 ohitv.pro##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
-
 oneclick-subtitles-generator.vercel.app##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
-
 localhost##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
+
 
