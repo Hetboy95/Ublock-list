@@ -65,7 +65,6 @@ mifirm.net###block-mess
 mifirm.net##.bnud.holder
 
 ! 9 thg 9, 2025 https://oneclick-subtitles-generator.vercel.app
-oneclick-subtitles-generator.vercel.app##.translation-section
 oneclick-subtitles-generator.vercel.app##.narration-section
 oneclick-subtitles-generator.vercel.app##.collapsed.video-rendering-section
 oneclick-subtitles-generator.vercel.app##.collapsed.background-generator-container
@@ -75,4 +74,11 @@ ohitv.pro##*:style(box-shadow:unset!important;text-shadow:unset!important;text-t
 oneclick-subtitles-generator.vercel.app##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
 localhost##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
 
+! 5 thg 10, 2025 https://www.deepl.com
+www.deepl.com##.overflow-hidden.mb-0.bg-redesign-jade-green-400.homeExperience-module--aiLabsBanner--4fb41
+www.deepl.com##.overflow-hidden.mb-0.bg-redesign-sapphire-blue-300.homeExperience-module--customerStories--5e9a8
+www.deepl.com##.homeExperience-module--logoCloud--e3778.overflow-hidden.mb-0.bg-white > div > div
+www.deepl.com##.Page-module--scalableTranslator--bb848.bg-white.relative > .\[\.is-home_\&\]\:hidden
+www.deepl.com##footer
+www.deepl.com##.SidePanel
 
