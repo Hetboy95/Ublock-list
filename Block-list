@@ -14,6 +14,12 @@ www.youtube.com###visible-banners > .yt-live-chat-banner-manager.style-scope
 www.youtube.com##.ytp-ce-element
 ! Block 1080p Premium 
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
+! Youtube end card
+youtube.com##.html5-video-player.ended-mode .ytp-fullscreen-grid
+youtube.com##.html5-video-player.ended-mode.ytp-autonav-endscreen-cancelled-state .html5-endscreen:style( display: block !important; )
+youtube.com##.html5-video-player.ytp-fullscreen.ended-mode.ytp-autonav-endscreen-cancelled-state .html5-endscreen:style( top: 48px !important; )
+! Youtube - player's "plain" popup menu
+www.youtube.com##.ytp-popup-content .ytp-menuitem:not(.ytp-menuitem-with-footer):style( height: 35px !important; )
 
 ! Aug 31, 2025 https://hhtq.xyz
 hhninja.top##.closecf
@@ -39,11 +45,12 @@ animevietsub.show###new-home
 ! 1 thg 9, 2025 http://localhost:3030
 localhost##.collapsed.video-rendering-section
 localhost##.collapsed.background-generator-container
-localhost##.video-preview
-localhost##.lyrics-container-wrapper
-localhost##.controls-timeline-container
-localhost##.translation-section
+!localhost##.video-preview
+!localhost##.lyrics-container-wrapper
+!localhost##.controls-timeline-container
+!localhost##.translation-section
 localhost##.narration-section
+localhost##.expanded.music-generator-section
 
 ! 31 thg 8, 2025 https://www.todawa152.site
 ##.main-contener-lf > div > [href^="https://www.filetender.com/ad.php"]
@@ -68,17 +75,20 @@ mifirm.net###block-mess
 mifirm.net##.bnud.holder
 
 ! 9 thg 9, 2025 https://oneclick-subtitles-generator.vercel.app
-oneclick-subtitles-generator.vercel.app##.narration-section
-oneclick-subtitles-generator.vercel.app##.collapsed.video-rendering-section
-oneclick-subtitles-generator.vercel.app##.collapsed.background-generator-container
+osgv.vercel.app##.narration-section
+osgv.vercel.app##.collapsed.video-rendering-section
+osgv.vercel.app##.collapsed.background-generator-container
+osgv.vercel.app##.collapsed.music-generator-section
+osgv.vercel.app##.expanded.music-generator-section
 
 ! Tắt CSS cho nhanh, nhẹ
 ohitv.xyz##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
-oneclick-subtitles-generator.vercel.app##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
+osgv.vercel.app##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
 localhost##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
 youtube.com##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
 weibo.com##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
 x.com##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
+aistudio.google.com##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
 
 ! 5 thg 10, 2025 https://www.deepl.com
 www.deepl.com##.overflow-hidden.mb-0.bg-redesign-jade-green-400.homeExperience-module--aiLabsBanner--4fb41
@@ -88,13 +98,36 @@ www.deepl.com##.Page-module--scalableTranslator--bb848.bg-white.relative > .\[\.
 www.deepl.com##footer
 www.deepl.com##.SidePanel
 
-! 7 thg 10, 2025 https://www.vivatv.cc
-www.vivatv.cc##.code-block-5.code-block
-
 ! 9 thg 10, 2025 https://m186.kowatcha.com
 ##[href="https://pic.ai-maker.xyz/apk/SpicyAI_V1.0_1.apk"]
 ##[href="https://betdal.com/"]
 ##[href="https://노마드.한국"]
-m187.kowatcha.com##.announ.row
-m187.kowatcha.com##div#exon:nth-of-type(7)
-m187.kowatcha.com##div#exon:nth-of-type(9)
+##[href="https://골뱃주소.com"]
+##[href="http://nmd-8282.com/"]
+m190.kowatcha.com##.announ.row
+m190.kowatcha.com##div#exon:nth-of-type(7)
+m190.kowatcha.com##div#exon:nth-of-type(9)
+mov.glamov.com##.announ.row
+
+! 27 thg 10, 2025 https://m103.kotbc2.com
+m103.kotbc2.com##.w-box
+m103.kotbc2.com###submission > ul
+m103.kotbc2.com###submission
+m103.kotbc2.com##.npside
+##[href^="https://80betdr.com/"]
+##[href="http://mkty946.vip"]
+##[href="https://xn--o80b97d8wf.xn--3e0b707e/"]
+
+! 11 thg 11, 2025 https://torrentqq393.com
+##[href="https://torrentqq393.com/ads/246"]
+##[href="https://torrentqq393.com/ads/248"]
+##[href="https://torrentqq393.com/ads/299"]
+##[href="https://torrentqq393.com/ads/310"]
+##[href="https://torrentqq393.com/ads/313"]
+##[href="https://torrentqq393.com/ads/316"]
+##[href="https://torrentqq393.com/ads/333"]
+##[href="https://torrentqq393.com/ads/348"]
+##[href="https://torrentqq393.com/ads/355"]
+##[href="https://torrentqq393.com/ads/356"]
+##[href="https://torrentqq393.com/ads/357"]
+##[href="https://torrentqq393.com/ads/359"]
