@@ -82,13 +82,7 @@ osgv.vercel.app##.collapsed.music-generator-section
 osgv.vercel.app##.expanded.music-generator-section
 
 ! Tắt CSS cho nhanh, nhẹ
-ohitv.biz##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
-osgv.vercel.app##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
-localhost##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
-youtube.com##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
-weibo.com##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
-x.com##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
-aistudio.google.com##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
+*##*:style(box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
 
 ! 5 thg 10, 2025 https://www.deepl.com
 www.deepl.com##.overflow-hidden.mb-0.bg-redesign-jade-green-400.homeExperience-module--aiLabsBanner--4fb41
@@ -131,4 +125,11 @@ m116.kotbc2.com##.npside
 ##[href="https://torrentqq393.com/ads/356"]
 ##[href="https://torrentqq393.com/ads/357"]
 ##[href="https://torrentqq393.com/ads/359"]
+
+! Chặn redirect/trick "click → mở trang khác"
+||goplay.ml^$popup
+||goplay.ml^$allpopup
+
+goplay.ml##+js(aopr, window.open)
+goplay.ml##+js(aopr, open)
 
