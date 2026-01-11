@@ -22,35 +22,45 @@ youtube.com##.html5-video-player.ytp-fullscreen.ended-mode.ytp-autonav-endscreen
 www.youtube.com##.ytp-popup-content .ytp-menuitem:not(.ytp-menuitem-with-footer):style( height: 35px !important; )
 
 ! Aug 31, 2025 https://hhtq.xyz
-hhninja.top##.closecf
+hhninja1.top##.closecf
 ##[href="https://154.82.109.157/1444948.html"]
 ##[href="https://154.82.109.175/1826099.html"]
 ##[href^="https://06lt88.com/"]
 
-! 25 thg 9, 2025 https://animevietsub.show
-animevietsub.show##.widget-area
-animevietsub.show###mv-keywords
-animevietsub.show##.ads-textlink
-animevietsub.show##.Footer > p
-animevietsub.show##h4
-animevietsub.show##.Copy
-animevietsub.show##div.WebDescription:nth-of-type(3)
-animevietsub.show##div.WebDescription:nth-of-type(2)
-animevietsub.show##.announcement
-animevietsub.show##.modern-anime-container
-animevietsub.show##main > .watch-notice
-animevietsub.show##div.Wdgt:nth-of-type(7)
-animevietsub.show###new-home
+! 11 thg 1, 2026 https://animevietsub.now
+animevietsub.now###hide_catfix
+animevietsub.now##.widget-area
+animevietsub.now###mv-keywords
+animevietsub.now##.ads-textlink
+animevietsub.now##.Footer > p
+animevietsub.now##h4
+animevietsub.now##.Copy
+animevietsub.now##div.WebDescription:nth-of-type(3)
+animevietsub.now##div.WebDescription:nth-of-type(2)
+animevietsub.now##.announcement
+animevietsub.now##.modern-anime-container
+animevietsub.now##main > .watch-notice
+animevietsub.now##div.Wdgt:nth-of-type(7)
+animevietsub.now###new-home
+##[href^="https://sun.win/"]
+##[href^="https://hitclub.pro/"]
+##[href^="https://vin88.tv/"]
+##[href^="https://max79.win/"]
+##[href="https://6789x.site/ad9namei07"]
+##[href^="https://febet.net/"]
+##[href^="https://haywinclub.me/"]
+##[href^="https://tin88.club/"]
 
 ! 1 thg 9, 2025 http://localhost:3030
 localhost##.collapsed.video-rendering-section
 localhost##.collapsed.background-generator-container
-!localhost##.video-preview
-!localhost##.lyrics-container-wrapper
-!localhost##.controls-timeline-container
-!localhost##.translation-section
 localhost##.narration-section
 localhost##.expanded.music-generator-section
+localhost##.video-player
+!localhost##.video-preview-header
+localhost##.translation-section
+!localhost##.controls-timeline-container
+!localhost##.lyrics-container-wrapper
 
 ! 31 thg 8, 2025 https://www.todawa152.site
 ##.main-contener-lf > div > [href^="https://www.filetender.com/ad.php"]
@@ -129,7 +139,9 @@ m116.kotbc2.com##.npside
 ! Chặn redirect/trick "click → mở trang khác"
 ||goplay.ml^$popup
 ||goplay.ml^$allpopup
-
 goplay.ml##+js(aopr, window.open)
 goplay.ml##+js(aopr, open)
+
+! 7 thg 1, 2026 http://localhost:3030
+
 
