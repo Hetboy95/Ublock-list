@@ -42,6 +42,7 @@ animevietsub.now##.modern-anime-container
 animevietsub.now##main > .watch-notice
 animevietsub.now##div.Wdgt:nth-of-type(7)
 animevietsub.now###new-home
+animevietsub.now##.mobile-catfish-top
 ##[href^="https://sun.win/"]
 ##[href^="https://hitclub.pro/"]
 ##[href^="https://vin88.tv/"]
