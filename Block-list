@@ -22,27 +22,26 @@ youtube.com##.html5-video-player.ytp-fullscreen.ended-mode.ytp-autonav-endscreen
 www.youtube.com##.ytp-popup-content .ytp-menuitem:not(.ytp-menuitem-with-footer):style( height: 35px !important; )
 
 ! Aug 31, 2025 https://hhtq.xyz
-hhninja1.top##.closecf
+hhninja.*##.closecf
 ##[href="https://154.82.109.157/1444948.html"]
 ##[href="https://154.82.109.175/1826099.html"]
 ##[href^="https://06lt88.com/"]
 
-! 11 thg 1, 2026 https://animevietsub.now
-animevietsub.now###hide_catfix
-animevietsub.now##.widget-area
-animevietsub.now###mv-keywords
-animevietsub.now##.ads-textlink
-animevietsub.now##.Footer > p
-animevietsub.now##h4
-animevietsub.now##.Copy
-animevietsub.now##div.WebDescription:nth-of-type(3)
-animevietsub.now##div.WebDescription:nth-of-type(2)
-animevietsub.now##.announcement
-animevietsub.now##.modern-anime-container
-animevietsub.now##main > .watch-notice
-animevietsub.now##div.Wdgt:nth-of-type(7)
-animevietsub.now###new-home
-animevietsub.now##.mobile-catfish-top
+! Chặn các thành phần trên mọi tên miền animevietsub (không quan trọng đuôi .vn, .now, .vip...)
+animevietsub.*###hide_catfix
+animevietsub.*##.widget-area
+animevietsub.*###mv-keywords
+animevietsub.*##.ads-textlink
+animevietsub.*##.Footer > p
+animevietsub.*##h4
+animevietsub.*##.Copy
+animevietsub.*##div.WebDescription:nth-of-type(3)
+animevietsub.*##div.WebDescription:nth-of-type(2)
+animevietsub.*##.announcement
+animevietsub.*##.modern-anime-container
+animevietsub.*##main > .watch-notice
+animevietsub.*##div.Wdgt:nth-of-type(7)
+animevietsub.*###new-home
 ##[href^="https://sun.win/"]
 ##[href^="https://hitclub.pro/"]
 ##[href^="https://vin88.tv/"]
@@ -54,6 +53,10 @@ animevietsub.now##.mobile-catfish-top
 ##[href^="https://bom88.net/"]
 ##[href^="https://vivu88.net/"]
 ##[href^="https://sin88.am/"]
+##[href^="https://sunwin.sx/"]
+##[href^="https://hitclub.in/"]
+##[href^="https://vin88.vin/"]
+##[href^="https://haywin.vip/"]
 
 ! 1 thg 9, 2025 http://localhost:3030
 localhost##.collapsed.video-rendering-section
@@ -65,15 +68,6 @@ localhost##.video-player
 localhost##.translation-section
 !localhost##.controls-timeline-container
 !localhost##.lyrics-container-wrapper
-
-! 31 thg 8, 2025 https://www.todawa152.site
-##.main-contener-lf > div > [href^="https://www.filetender.com/ad.php"]
-##div:nth-of-type(1) > [href^="https://nlfurn.com/shop/item.php"]
-##[href^="https://herbmming1.com/"]
-##[href^="https://filecast.co.kr/"]
-##.right-contener > div > [href^="https://www.filetender.com/ad.php"]
-##div:nth-of-type(2) > [href^="https://nlfurn.com/shop/item.php"]
-##[href^="https://www.filetender.com/ad.php"]
 
 ! 31 thg 8, 2025 https://www.iyf.tv
 ||pptstatic.iyf.tv/upload/video/202508011431473105508.jpg$image
@@ -106,25 +100,16 @@ www.deepl.com##.Page-module--scalableTranslator--bb848.bg-white.relative > .\[\.
 www.deepl.com##footer
 www.deepl.com##.SidePanel
 
-! 9 thg 10, 2025 https://m186.kowatcha.com
-##[href="https://pic.ai-maker.xyz/apk/SpicyAI_V1.0_1.apk"]
-##[href="https://betdal.com/"]
-##[href="https://노마드.한국"]
-##[href="https://골뱃주소.com"]
-##[href="http://nmd-8282.com/"]
-m190.kowatcha.com##.announ.row
-m190.kowatcha.com##div#exon:nth-of-type(7)
-m190.kowatcha.com##div#exon:nth-of-type(9)
-mov.glamov.com##.announ.row
-
 ! 27 thg 10, 2025 https://m103.kotbc2.com
-m116.kotbc2.com##.w-box
-m116.kotbc2.com###submission > ul
-m116.kotbc2.com###submission
-m116.kotbc2.com##.npside
+! Chặn các thành phần trên mọi subdomain của kotbc2.com (m116, m127, m999...)
+kotbc2.com##.w-box
+kotbc2.com###submission > ul
+kotbc2.com###submission
+kotbc2.com##.npside
 ##[href^="https://80betdr.com/"]
 ##[href="http://mkty946.vip"]
 ##[href="https://xn--o80b97d8wf.xn--3e0b707e/"]
+##[href="https://pic.ai-maker.xyz/apk/SpicyAI_V1.0_1.apk"]
 
 ! 11 thg 11, 2025 https://torrentqq393.com
 ##[href="https://torrentqq393.com/ads/246"]
@@ -145,7 +130,4 @@ m116.kotbc2.com##.npside
 ||goplay.ml^$allpopup
 goplay.ml##+js(aopr, window.open)
 goplay.ml##+js(aopr, open)
-
-! 7 thg 1, 2026 http://localhost:3030
-
 
