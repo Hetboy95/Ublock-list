@@ -23,9 +23,6 @@ www.youtube.com##.ytp-popup-content .ytp-menuitem:not(.ytp-menuitem-with-footer)
 
 ! Aug 31, 2025 https://hhtq.xyz
 hhninja.*##.closecf
-##[href="https://154.82.109.157/1444948.html"]
-##[href="https://154.82.109.175/1826099.html"]
-##[href^="https://06lt88.com/"]
 
 ! Chặn các thành phần trên mọi tên miền animevietsub (không quan trọng đuôi .vn, .now, .vip...)
 animevietsub.*###hide_catfix
@@ -42,21 +39,11 @@ animevietsub.*##.modern-anime-container
 animevietsub.*##main > .watch-notice
 animevietsub.*##div.Wdgt:nth-of-type(7)
 animevietsub.*###new-home
-##[href^="https://sun.win/"]
-##[href^="https://hitclub.pro/"]
-##[href^="https://vin88.tv/"]
-##[href^="https://max79.win/"]
+##[href*="vin88"]
+##[href*="bet"]
+##[href*="club"]
+##[href*="win"]
 ##[href="https://6789x.site/ad9namei07"]
-##[href^="https://febet.net/"]
-##[href^="https://haywinclub.me/"]
-##[href^="https://tin88.club/"]
-##[href^="https://bom88.net/"]
-##[href^="https://vivu88.net/"]
-##[href^="https://sin88.am/"]
-##[href^="https://sunwin.sx/"]
-##[href^="https://hitclub.in/"]
-##[href^="https://vin88.vin/"]
-##[href^="https://haywin.vip/"]
 
 ! 1 thg 9, 2025 http://localhost:3030
 localhost##.collapsed.video-rendering-section
@@ -106,24 +93,12 @@ kotbc2.com##.w-box
 kotbc2.com###submission > ul
 kotbc2.com###submission
 kotbc2.com##.npside
-##[href^="https://80betdr.com/"]
 ##[href="http://mkty946.vip"]
 ##[href="https://xn--o80b97d8wf.xn--3e0b707e/"]
 ##[href="https://pic.ai-maker.xyz/apk/SpicyAI_V1.0_1.apk"]
 
-! 11 thg 11, 2025 https://torrentqq393.com
-##[href="https://torrentqq393.com/ads/246"]
-##[href="https://torrentqq393.com/ads/248"]
-##[href="https://torrentqq393.com/ads/299"]
-##[href="https://torrentqq393.com/ads/310"]
-##[href="https://torrentqq393.com/ads/313"]
-##[href="https://torrentqq393.com/ads/316"]
-##[href="https://torrentqq393.com/ads/333"]
-##[href="https://torrentqq393.com/ads/348"]
-##[href="https://torrentqq393.com/ads/355"]
-##[href="https://torrentqq393.com/ads/356"]
-##[href="https://torrentqq393.com/ads/357"]
-##[href="https://torrentqq393.com/ads/359"]
+! Chặn mọi link có chứa "torrentqq" và thư mục "/ads/"
+##[href*="torrentqq"][href*="/ads/"]
 
 ! Chặn redirect/trick "click → mở trang khác"
 ||goplay.ml^$popup
