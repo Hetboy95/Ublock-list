@@ -22,7 +22,8 @@ youtube.com##.html5-video-player.ytp-fullscreen.ended-mode.ytp-autonav-endscreen
 www.youtube.com##.ytp-popup-content .ytp-menuitem:not(.ytp-menuitem-with-footer):style( height: 35px !important; )
 
 ! Aug 31, 2025 https://hhtq.xyz
-hhninja.*##.closecf
+/hhninja/##.closecf
+/hhninja/###clearads
 
 ! Chặn các thành phần trên mọi tên miền animevietsub (không quan trọng đuôi .vn, .now, .vip...)
 animevietsub.*###hide_catfix
@@ -39,10 +40,10 @@ animevietsub.*##.modern-anime-container
 animevietsub.*##main > .watch-notice
 animevietsub.*##div.Wdgt:nth-of-type(7)
 animevietsub.*###new-home
-##[href*="vin88"]
+animevietsub.*###invideo_wrapper
+##[href*="n88"]
 ##[href*="bet"]
 ##[href*="club"]
-##[href*="win"]
 ##[href="https://6789x.site/ad9namei07"]
 
 ! 1 thg 9, 2025 http://localhost:3030
